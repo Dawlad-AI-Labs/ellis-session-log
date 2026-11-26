@@ -2,7 +2,7 @@
 
 A dependency-free Node.js module that appends session events to JSONL, reads them back and derives a small session summary. Extracted from the Ellis oral-examiner prototype for engineers doing technical due diligence.
 
-**Status:** private release candidate v0.1.0. This is a storage example, not the Ellis app or a validated educational intervention. No network, model account or paid API is needed.
+**Status:** research reference, v0.1.0. This is a storage example, not the Ellis app or a validated educational intervention. No network, model account or paid API is needed.
 
 ## Inspect first
 
@@ -11,7 +11,7 @@ A dependency-free Node.js module that appends session events to JSONL, reads the
 - [Synthetic practice example](examples/synthetic-practice.mjs): four invented events.
 - [Origin and limits](docs/PROVENANCE.md), [verification](docs/VERIFICATION.md), [release review](docs/RELEASE.md).
 
-These relative links resolve within the checked-out release; at the release tag they point to that exact version. Proposed release: `v0.1.0`.
+These relative links resolve within the checked-out release; at the `v0.1.0` tag they point to that exact version.
 
 ## Run
 
@@ -32,6 +32,6 @@ Use synthetic data only. This module alone is unsuitable for exposing a service 
 
 ## Licence, support and maintenance
 
-The proposed MIT licence is in [LICENSE](LICENSE); adoption and rights confirmation remain part of Aly's exact-release approval. Public distribution of this candidate awaits that approval. No third-party packages or assets are included. See [provenance](docs/PROVENANCE.md).
+Released under the MIT licence; see [LICENSE](LICENSE). No third-party packages or assets are included. See [provenance](docs/PROVENANCE.md).
 
-Maintainer for this candidate: Dawlad / Noor. Open an issue for code or reproduction problems after release; never include personal data or secrets. Changes should include focused tests and a clear explanation. This is an experimental reference with no support SLA. Review on the first external reproduction report or source change; archive explicitly if maintenance stops.
+Maintainer: Dawlad AI Labs (Noor, Founding Product Lead). Open an issue for code or reproduction problems; never include personal data or secrets. Changes should include focused tests and a clear explanation. Support status: research reference. It is reproducible at the pinned version, with no compatibility or response-time guarantee. Report security or privacy problems through a private GitHub security advisory rather than a public issue. Reviewed quarterly (next 26 February 2027) and on any credible security, privacy or rights report; archived explicitly if maintenance stops.

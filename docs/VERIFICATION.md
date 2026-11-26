@@ -10,3 +10,7 @@ Operator: Noor (self-check, not independent release review). Environment: macOS,
 - No .local logs, .env files, voices, original design assets, node_modules or original repository history are included.
 
 Remote clone verification is recorded by the maintainer outside the candidate to avoid changing the commit being checked. This document does not claim independent review, full Ellis acceptance, legal clearance or public publication. Proposed MIT licence/right-holder confirmation and the exact public visibility decision remain with Aly.
+
+## Release-day recheck · 26 November 2026
+
+Operator: Noor. Fresh clone of the private repository at 9b56da43: test passed (1/1) and the synthetic example returned 4 lines, 2 turns and the expected end reason. Every file was read in full for personal data, secrets and copied assets; none found. Only README, RELEASE and this file changed for release; the module and tests are byte-identical to the candidate. An independent model-based check was used as an instrument; Dawlad has not yet appointed a named independent Release Reviewer, so this first release proceeds on Aly's direct approval and that gap is recorded here.
