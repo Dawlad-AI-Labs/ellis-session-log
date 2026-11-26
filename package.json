@@ -1,0 +1,14 @@
+{
+  "name": "ellis-session-log",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A small file-based session log extracted from the Ellis prototype.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test --test-concurrency=1",
+    "example": "node examples/synthetic-practice.mjs"
+  }
+}
