@@ -9,7 +9,7 @@ A dependency-free Node.js module that appends session events to JSONL, reads the
 - [Implementation](src/sessions.mjs): append, list, read and attachment functions.
 - [Tests](test/sessions.test.mjs): isolated storage, restart readback, validation and permissions.
 - [Synthetic practice example](examples/synthetic-practice.mjs): four invented events.
-- [Origin and limits](docs/PROVENANCE.md), [release review](docs/RELEASE.md).
+- [Origin and limits](docs/PROVENANCE.md), [verification](docs/VERIFICATION.md), [release review](docs/RELEASE.md).
 
 These relative links resolve within the checked-out release; at the release tag they point to that exact version. Proposed release: `v0.1.0`.
 
