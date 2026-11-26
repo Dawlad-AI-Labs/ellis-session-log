@@ -1,4 +1,4 @@
-# Candidate verification · 26 November 2026
+# Pre-release verification · 26 November 2026
 
 Operator: Noor (self-check, not independent release review). Environment: macOS, Node.js 24.18.1. No packages installed, API calls, real records or audio used.
 
@@ -9,7 +9,7 @@ Operator: Noor (self-check, not independent release review). Environment: macOS,
 - Included files were reviewed as text and checked for common private-key, GitHub-token, provider-key and AWS-key patterns. No matches. Such a scan is not proof that all possible secrets are absent.
 - No .local logs, .env files, voices, original design assets, node_modules or original repository history are included.
 
-Remote clone verification is recorded by the maintainer outside the candidate to avoid changing the commit being checked. This document does not claim independent review, full Ellis acceptance, legal clearance or public publication. Proposed MIT licence/right-holder confirmation and the exact public visibility decision remain with Aly.
+Remote clone verification is recorded by the maintainer outside the candidate to avoid changing the commit being checked. This document does not claim independent review, full Ellis acceptance, legal clearance or public publication. The MIT licence and public release were later decided by Aly Solamon; see RELEASE.md.
 
 ## Release-day recheck · 26 November 2026
 

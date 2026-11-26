@@ -9,4 +9,4 @@ Release approval: Aly Solamon (rights holder) asked on 26 November 2026 for this
 
 Maintainer: Noor. After release: verify remote visibility, tag commit and a clean public clone before reporting public acceptance. Do not move a published tag. Support status: research reference; next review 26 February 2027.
 
-No full-app, voice-provider, browser or learning-outcome verification is included. This reference is useful for inspecting file-based logging, not a substitute for the professor-practice deployment milestone.
+No full-app, voice-provider, browser or learning-outcome verification is included. This reference is useful for inspecting file-based logging; it is not a deployable Ellis app.
